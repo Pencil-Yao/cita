@@ -13,19 +13,19 @@ serde = "1.0"
 serde_derive = "1.0"
 serde_json = "1.0"
 cita-logger = "0.1.1"
-cita-types = { git = "https://github.com/Pencil-Yao/cita-common.git", branch = "fix_up_p2p" }
-cita-directories = { git = "https://github.com/Pencil-Yao/cita-common.git", branch = "fix_up_p2p" }
-util = { git = "https://github.com/Pencil-Yao/cita-common.git", branch = "fix_up_p2p" }
-error = { git = "https://github.com/Pencil-Yao/cita-common.git", branch = "fix_up_p2p" }
-pubsub = { git = "https://github.com/Pencil-Yao/cita-common.git", branch = "fix_up_p2p" }
-libproto = { git = "https://github.com/Pencil-Yao/cita-common.git", branch = "fix_up_p2p" }
-cita-crypto = { git = "https://github.com/Pencil-Yao/cita-common.git", branch = "fix_up_p2p" }
-tx_pool = { git = "https://github.com/Pencil-Yao/cita-common.git", branch = "fix_up_p2p" }
-jsonrpc-types = { git = "https://github.com/Pencil-Yao/cita-common.git", branch = "fix_up_p2p" }
+cita-types = { git = "https://github.com/Pencil-Yao/cita-common.git", branch = "fix_up_eth_lib" }
+cita-directories = { git = "https://github.com/Pencil-Yao/cita-common.git", branch = "fix_up_eth_lib" }
+util = { git = "https://github.com/Pencil-Yao/cita-common.git", branch = "fix_up_eth_lib" }
+error = { git = "https://github.com/Pencil-Yao/cita-common.git", branch = "fix_up_eth_lib" }
+pubsub = { git = "https://github.com/Pencil-Yao/cita-common.git", branch = "fix_up_eth_lib" }
+libproto = { git = "https://github.com/Pencil-Yao/cita-common.git", branch = "fix_up_eth_lib" }
+cita-crypto = { git = "https://github.com/Pencil-Yao/cita-common.git", branch = "fix_up_eth_lib" }
+tx_pool = { git = "https://github.com/Pencil-Yao/cita-common.git", branch = "fix_up_eth_lib" }
+jsonrpc-types = { git = "https://github.com/Pencil-Yao/cita-common.git", branch = "fix_up_eth_lib" }
 uuid = { version = "0.7", features = ["v4"] }
 lru = "0.1"
 rayon = "1.2"
-hashable = { git = "https://github.com/Pencil-Yao/cita-common.git", branch = "fix_up_p2p" }
+hashable = { git = "https://github.com/Pencil-Yao/cita-common.git", branch = "fix_up_eth_lib" }
 cita-database = "0.1"
 
 [dev-dependencies]
@@ -34,7 +34,7 @@ tempdir = "0.3.7"
 quickcheck = "0.7.2"
 
 [build-dependencies]
-util = { git = "https://github.com/Pencil-Yao/cita-common.git", branch = "fix_up_p2p" }
+util = { git = "https://github.com/Pencil-Yao/cita-common.git", branch = "fix_up_eth_lib" }
 
 [features]
 default = ["secp256k1", "sha3hash", "rabbitmq"]

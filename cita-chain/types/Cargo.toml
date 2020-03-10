@@ -7,24 +7,24 @@ license = "Apache-2.0"
 edition = "2018"
 
 [dependencies]
-rlp = { git = "https://github.com/Pencil-Yao/cita-common.git", branch = "fix_up_p2p" }
-util = { git = "https://github.com/Pencil-Yao/cita-common.git", branch = "fix_up_p2p" }
-cita-types = { git = "https://github.com/Pencil-Yao/cita-common.git", branch = "fix_up_p2p" }
-hashable = { git = "https://github.com/Pencil-Yao/cita-common.git", branch = "fix_up_p2p" }
-jsonrpc-types = { git = "https://github.com/Pencil-Yao/cita-common.git", branch = "fix_up_p2p" }
-cita-crypto = { git = "https://github.com/Pencil-Yao/cita-common.git", branch = "fix_up_p2p" }
-libproto = { git = "https://github.com/Pencil-Yao/cita-common.git", branch = "fix_up_p2p" }
-cita-ed25519 = { git = "https://github.com/Pencil-Yao/cita-common.git", branch = "fix_up_p2p" }
-snappy = { git = "https://github.com/Pencil-Yao/cita-common.git", branch = "fix_up_p2p" }
+rlp = { git = "https://github.com/Pencil-Yao/cita-common.git", branch = "fix_up_eth_lib" }
+util = { git = "https://github.com/Pencil-Yao/cita-common.git", branch = "fix_up_eth_lib" }
+cita-types = { git = "https://github.com/Pencil-Yao/cita-common.git", branch = "fix_up_eth_lib" }
+hashable = { git = "https://github.com/Pencil-Yao/cita-common.git", branch = "fix_up_eth_lib" }
+jsonrpc-types = { git = "https://github.com/Pencil-Yao/cita-common.git", branch = "fix_up_eth_lib" }
+cita-crypto = { git = "https://github.com/Pencil-Yao/cita-common.git", branch = "fix_up_eth_lib" }
+libproto = { git = "https://github.com/Pencil-Yao/cita-common.git", branch = "fix_up_eth_lib" }
+cita-ed25519 = { git = "https://github.com/Pencil-Yao/cita-common.git", branch = "fix_up_eth_lib" }
+snappy = { git = "https://github.com/Pencil-Yao/cita-common.git", branch = "fix_up_eth_lib" }
 serde = "1.0"
 serde_derive = "1.0"
 bloomchain = "0.2"
 lazy_static = "1.4.0"
 time = "0.1"
-rustc-hex = "1.0"
+rustc-hex = "2.0"
 cita_trie = "2.0.0"
 cita-logger = "0.1.0"
-proof = { git = "https://github.com/Pencil-Yao/cita-common.git", branch = "fix_up_p2p" }
+proof = { git = "https://github.com/Pencil-Yao/cita-common.git", branch = "fix_up_eth_lib" }
 cita-database = "0.1"
 
 [dependencies.cita-vm]

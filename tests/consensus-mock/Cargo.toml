@@ -10,13 +10,13 @@ serde = "1.0"
 serde_derive = "1.0"
 bincode = "0.8.0"
 cita-logger = "0.1.0"
-libproto = { git = "https://github.com/Pencil-Yao/cita-common.git", branch = "fix_up_p2p" }
-hashable = { git = "https://github.com/Pencil-Yao/cita-common.git", branch = "fix_up_p2p" }
+libproto = { git = "https://github.com/Pencil-Yao/cita-common.git", branch = "fix_up_eth_lib" }
+hashable = { git = "https://github.com/Pencil-Yao/cita-common.git", branch = "fix_up_eth_lib" }
 clap = "2"
-pubsub = { git = "https://github.com/Pencil-Yao/cita-common.git", branch = "fix_up_p2p" }
-cita-types = { git = "https://github.com/Pencil-Yao/cita-common.git", branch = "fix_up_p2p" }
-cita-crypto = { git = "https://github.com/Pencil-Yao/cita-common.git", branch = "fix_up_p2p" }
-proof = { git = "https://github.com/Pencil-Yao/cita-common.git", branch = "fix_up_p2p" }
+pubsub = { git = "https://github.com/Pencil-Yao/cita-common.git", branch = "fix_up_eth_lib" }
+cita-types = { git = "https://github.com/Pencil-Yao/cita-common.git", branch = "fix_up_eth_lib" }
+cita-crypto = { git = "https://github.com/Pencil-Yao/cita-common.git", branch = "fix_up_eth_lib" }
+proof = { git = "https://github.com/Pencil-Yao/cita-common.git", branch = "fix_up_eth_lib" }
 chrono = "0.4.2"
 
 [features]

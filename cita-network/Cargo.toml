@@ -11,11 +11,11 @@ tentacle = { version = "0.2.7", features = ["molc"] }
 tokio = "0.1.14"
 futures = "0.1.25"
 cita-logger = "0.1.1"
-cita-types = { git = "https://github.com/Pencil-Yao/cita-common.git", branch = "fix_up_p2p" }
-util = { git = "https://github.com/Pencil-Yao/cita-common.git", branch = "fix_up_p2p" }
-libproto = { git = "https://github.com/Pencil-Yao/cita-common.git", branch = "fix_up_p2p" }
-pubsub = { git = "https://github.com/Pencil-Yao/cita-common.git", branch = "fix_up_p2p" }
-jsonrpc-types = { git = "https://github.com/Pencil-Yao/cita-common.git", branch = "fix_up_p2p" }
+cita-types = { git = "https://github.com/Pencil-Yao/cita-common.git", branch = "fix_up_eth_lib" }
+util = { git = "https://github.com/Pencil-Yao/cita-common.git", branch = "fix_up_eth_lib" }
+libproto = { git = "https://github.com/Pencil-Yao/cita-common.git", branch = "fix_up_eth_lib" }
+pubsub = { git = "https://github.com/Pencil-Yao/cita-common.git", branch = "fix_up_eth_lib" }
+jsonrpc-types = { git = "https://github.com/Pencil-Yao/cita-common.git", branch = "fix_up_eth_lib" }
 serde = "1.0.84"
 serde_json = "1.0"
 serde_derive = "1.0.84"
@@ -31,7 +31,7 @@ notify = "4.0.10"
 tempfile = "3.0.5"
 
 [build-dependencies]
-util = { git = "https://github.com/Pencil-Yao/cita-common.git", branch = "fix_up_p2p" }
+util = { git = "https://github.com/Pencil-Yao/cita-common.git", branch = "fix_up_eth_lib" }
 
 [features]
 default = ["secp256k1", "sha3hash", "rabbitmq"]

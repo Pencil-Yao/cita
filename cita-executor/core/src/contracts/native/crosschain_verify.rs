@@ -377,7 +377,7 @@ impl CrossChainVerify {
                 data_provider,
                 &params.code_address,
                 block_header_curr.number(),
-                &U256::from(block_header_curr.state_root()),
+                &U256::from_slice(block_header_curr.state_root().as_ref()),
             )?;
         }
 
